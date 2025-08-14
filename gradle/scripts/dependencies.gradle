@@ -65,4 +65,7 @@ dependencies {
     // implementation ('com.google.code.gson:gson:2.8.6') {
     //     transitive = false
     // }
+    implementation rfg.deobf('curse.maven:avaritia-1-1x-unofficial-1165010:6542330')
+    implementation rfg.deobf('curse.maven:had-enough-items-557549:6825777')
+    runtimeOnly 'curse.maven:codechicken-lib-1-8-242818:2779848'
 }
